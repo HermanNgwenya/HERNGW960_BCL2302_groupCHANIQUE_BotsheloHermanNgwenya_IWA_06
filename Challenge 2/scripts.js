@@ -29,10 +29,10 @@ const minuteOfDay = 0;
 // Only change below this line
 
 if (hourOfDay == 0 && minuteOfDay == 0){
-	let taxAsDecimal = parseInt(tax)/ 100;
-    const startingAfterTax = salary * (1 - taxAsDecimal);
-	const balance = startingAfterTax - transport - food - rent;
-    console.log(balance.toFixed(2));
+	let taxAsDecimal = parseInt(tax)/ 100
+    const startingAfterTax = salary * (1 - taxAsDecimal)
+	const balance = startingAfterTax - transport - food - rent
+    console.log(balance.toFixed(2))
 }
 
 	
